@@ -40,6 +40,8 @@ body {
   justify-content: space-between;
 
   line-height: 0;
+
+  position: relative;
 }
 
 .container div.toggle img {
@@ -54,4 +56,7 @@ body {
   border-radius: 3.6875rem;
 
   background-color: #f1f1f1;
+  position: absolute;
+  top: 7px;
+  right: 7px;
 }
