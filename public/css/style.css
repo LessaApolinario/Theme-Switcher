@@ -24,6 +24,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  transition: background-color 2s;
 }
 
 .container div.toggle {
@@ -56,9 +58,13 @@ body {
   border-radius: 3.6875rem;
 
   background-color: #f1f1f1;
+
   position: absolute;
   top: 0.4375rem;
   right: 0.4375rem;
+  left: 140px;
+
+  cursor: pointer;
 
   transition: left 1s;
 }
@@ -68,5 +74,11 @@ body {
   top: 0.4375rem;
   left: 0.4375rem;
 
-  transition: right 1s;
+  transition: left 1s;
+}
+
+.container.light {
+  background-color: var(--light);
+
+  transition: background-color 2s;
 }
