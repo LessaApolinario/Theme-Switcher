@@ -49,7 +49,7 @@ body {
   height: 5.394375rem;
 }
 
-.container div.toggle button#toggle-button {
+.container div.toggle button.dark {
   width: 5.394375rem;
   height: 5.394375rem;
   border: 0;
@@ -57,6 +57,12 @@ body {
 
   background-color: #f1f1f1;
   position: absolute;
-  top: 7px;
-  right: 7px;
+  top: 0.4375rem;
+  right: 0.4375rem;
+}
+
+.container div.toggle button.light {
+  position: absolute;
+  top: 0.4375rem;
+  left: 0.4375rem;
 }
